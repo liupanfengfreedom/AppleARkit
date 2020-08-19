@@ -458,8 +458,8 @@ bool FAppleARKitConversion::IsSessionTrackingFeatureSupported(EARSessionType Ses
 				case EARSessionType::World:
 					return [ARWorldTrackingConfiguration supportsFrameSemantics: Semantics];
 				
-				case EARSessionType::Face:
-					return [ARFaceTrackingConfiguration supportsFrameSemantics: Semantics];
+				//case EARSessionType::Face://lpf
+				//	return [ARFaceTrackingConfiguration supportsFrameSemantics: Semantics];
 				
 				case EARSessionType::Image:
 					return [ARImageTrackingConfiguration supportsFrameSemantics: Semantics];
