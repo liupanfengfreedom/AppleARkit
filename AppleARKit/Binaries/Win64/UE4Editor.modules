@@ -1,8 +1,0 @@
-{
-	"BuildId": "8386587",
-	"Modules": 
-	{
-		"AppleARKit": "UE4Editor-AppleARKit.dll",
-		"AppleARKitPoseTrackingLiveLink": "UE4Editor-AppleARKitPoseTrackingLiveLink.dll"
-	}
-}
